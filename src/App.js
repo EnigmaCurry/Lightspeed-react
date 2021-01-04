@@ -155,57 +155,12 @@ function App(props) {
   //
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="logo-header">
-          <img id="logo-img" src="/images/lightspeedlogo.svg"></img>
-          <h1>Project Lightspeed</h1>
-        </div>
-        <div></div>
-      </header>
-      <div className="container">
-        <div className="video-container">
-          <video
-            id="player"
-            playsInline
-            controls
-            poster="/images/img.jpg"
-          ></video>
-          <div className="video-details">
-            <div className="detail-heading-box">
-              <div className="detail-title">
-                <span className="alpha-tag">
-                  <div>
-                    {" "}
-                    <i class="fas fa-construction badge-icon"></i>Alpha
-                  </div>
-                </span>
-                <h4 className="details-heading">
-                  Welcome to Project Lightspeed - The future of live
-                  entertainment
-                </h4>
-              </div>
-
-              <img id="detail-img" src="/images/lightspeedlogo.svg"></img>
-            </div>
-          </div>
-        </div>
-
-        <div className="chat-container">
-          <div className="chat-main">
-            <div className="chat-heading chat-pad">
-              <h6>Live Chat Room</h6>
-              <i class="fas fa-long-arrow-up arrow"></i>
-            </div>
-
-            <div className="chat-body">
-              <i class="fas fa-construction"></i>
-              <h4>Coming Soon!</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <video
+        id="player"
+        playsInline
+        controls
+        poster="/images/img.jpg"
+      ></video>
   );
 }
 
